@@ -19,22 +19,6 @@ class Client {
   bool connected = false;
   Socket socket;
 
-//connect to Server and catch the exception
-  connect() async {
-    try {
-      socket = await Socket.connect(hostname, 54000);
-      socket.listen(
-        onData,
-        onError: onError,
-        onDone: disconnect,
-        cancelOnError: false,
-      );
-      connected = true;
-    } on Exception catch (exception) {
-      onData(Uint8List.fromList("Error : $exception".codeUnits));
-    }
-  }
-
 //send the message (indexes in the mapPage.dart) to Server and add a new line
   write(String message) {
     //Connect standard in to the socket
