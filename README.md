@@ -1,16 +1,19 @@
-# video_background_flutter
+# 🚗 IDS Lab App
 
-Example app showing how to add a video to the background of a screen in Flutter.
 
-## Getting Started
+https://github.com/user-attachments/assets/32af8fd2-9d2a-458b-8a3f-c04d2c400c31
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+A Flutter-powered application simulating a self-driving car ride-hailing system in a miniature city.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# 🛠️ Tech Stack
+Framework: Flutter
+Language: Dart
+Backend & Authentication: Firebase
+Real-Time Communication: WebSockets
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 📌 Features
+🗺️ Interactive Map: View self-driving cars and track their movement.
+🔌 Real-Time Updates: Socket-based communication for dynamic ride tracking.
+🔐 User Authentication: Secure login and registration via Firebase.
+📱 Cross-Platform: Works seamlessly on Android & iOS.
